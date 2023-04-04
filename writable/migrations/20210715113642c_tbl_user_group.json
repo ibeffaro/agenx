@@ -1,0 +1,28 @@
+{
+    "table": "tbl_user_group",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "auto_increment": true
+                },
+                "nama": {
+                    "type": "varchar",
+                    "length": "150"
+                },
+                "keterangan": {
+                    "type": "text"
+                },
+                "is_active": {
+                    "type": "boolean"
+                },
+                "timestamp": true
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}

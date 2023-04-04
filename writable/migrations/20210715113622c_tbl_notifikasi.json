@@ -1,0 +1,56 @@
+{
+    "table": "tbl_notifikasi",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "auto_increment": true
+                },
+                "title": {
+                    "type": "varchar",
+                    "length": "100"
+                },
+                "description": {
+                    "type": "varchar",
+                    "length": "255"
+                },
+                "notif_link": {
+                    "type": "varchar",
+                    "length": "255"
+                },
+                "notif_date": {
+                    "type": "datetime"
+                },
+                "notif_type": {
+                    "type": "varchar",
+                    "length": "30"
+                },
+                "notif_icon": {
+                    "type": "varchar",
+                    "length": "30"
+                },
+                "is_read": {
+                    "type": "boolean"
+                },
+                "id_user": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "comment": "fk"
+                },
+                "transaksi": {
+                    "type": "varchar",
+                    "length": "255"
+                },
+                "id_transaksi": {
+                    "type": "bigint",
+                    "unsigned": true
+                }
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}

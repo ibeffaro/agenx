@@ -1,0 +1,19 @@
+{
+    "tables": [
+        "tbl_user",
+        "tbl_user_group"
+    ],
+    "relations": [
+        "tbl_user_group.id = tbl_user.id_group"
+    ],
+    "attr_flowchart": {
+        "tbl_user": [
+            400,
+            110
+        ],
+        "tbl_user_group": [
+            110,
+            60
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+<img src="<?=asset_url('uploads/settings/'.setting('company_logo'));?>" width="100" alt="Logo" />

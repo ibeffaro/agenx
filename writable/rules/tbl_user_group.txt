@@ -1,0 +1,1 @@
+a:1:{s:4:"nama";s:15:"required|unique";}

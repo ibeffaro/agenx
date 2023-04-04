@@ -1,0 +1,35 @@
+{
+    "table": "tbl_informasi",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "null": false,
+                    "auto_increment": true,
+                    "unsigned": true
+                },
+                "informasi": {
+                    "type": "text",
+                    "null": false
+                },
+                "tanggal_mulai": {
+                    "type": "date",
+                    "null": false
+                },
+                "tanggal_selesai": {
+                    "type": "date",
+                    "null": false
+                },
+                "id_group": {
+                    "type": "text",
+                    "null": false
+                },
+                "timestamp": true
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}

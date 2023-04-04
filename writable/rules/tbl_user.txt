@@ -1,0 +1,1 @@
+a:8:{s:8:"id_group";s:8:"required";s:4:"kode";s:15:"required|unique";s:4:"nama";s:8:"required";s:8:"username";s:22:"required|letter|unique";s:8:"password";s:28:"setting{password_validation}";s:5:"email";s:21:"required|email|unique";s:7:"telepon";s:5:"phone";s:4:"foto";a:1:{s:4:"path";s:4:"user";}}

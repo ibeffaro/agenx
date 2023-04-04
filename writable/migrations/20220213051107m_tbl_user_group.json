@@ -1,0 +1,18 @@
+{
+    "table": "tbl_user_group",
+    "up": {
+        "add_column": {
+            "id_menu_default": {
+                "type": "bigint",
+                "null": false,
+                "unsigned": true,
+                "after": "keterangan"
+            }
+        }
+    },
+    "down": {
+        "drop_column": [
+            "id_menu_default"
+        ]
+    }
+}

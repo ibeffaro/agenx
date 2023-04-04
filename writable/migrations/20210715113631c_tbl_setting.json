@@ -1,0 +1,27 @@
+{
+    "table": "tbl_setting",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "auto_increment": true
+                },
+                "_key": {
+                    "type": "varchar",
+                    "length": "100"
+                },
+                "_value": {
+                    "type": "text"
+                },
+                "serialize": {
+                    "type": "boolean"
+                }
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}

@@ -1,0 +1,47 @@
+{
+    "table": "tbl_user_log",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "auto_increment": true
+                },
+                "ip_address": {
+                    "type": "varchar",
+                    "length": "50"
+                },
+                "id_user": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "comment": "fk"
+                },
+                "nama_user": {
+                    "type": "varchar",
+                    "length": "100"
+                },
+                "tanggal": {
+                    "type": "datetime"
+                },
+                "keterangan": {
+                    "type": "text"
+                },
+                "metode": {
+                    "type": "varchar",
+                    "length": "5"
+                },
+                "data": {
+                    "type": "text"
+                },
+                "respon": {
+                    "type": "varchar",
+                    "length": "30"
+                }
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}

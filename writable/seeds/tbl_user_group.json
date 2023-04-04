@@ -1,0 +1,25 @@
+{
+    "table": "tbl_user_group",
+    "fields": [
+        "id",
+        "nama",
+        "keterangan",
+        "is_active",
+        "created_by",
+        "created_at",
+        "updated_by",
+        "updated_at"
+    ],
+    "data": [
+        [
+            "1",
+            "Root",
+            "Role Web Developer",
+            "1",
+            "",
+            "0000-00-00 00:00:00",
+            "Admin",
+            "2021-07-23 10:23:52"
+        ]
+    ]
+}

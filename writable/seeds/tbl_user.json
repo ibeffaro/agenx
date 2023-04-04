@@ -1,0 +1,49 @@
+{
+    "table": "tbl_user",
+    "fields": [
+        "id",
+        "id_group",
+        "kode",
+        "nama",
+        "username",
+        "password",
+        "email",
+        "telepon",
+        "foto",
+        "last_login",
+        "last_activity",
+        "ip_address",
+        "invalid_password",
+        "is_active",
+        "change_password_by",
+        "change_password_at",
+        "created_by",
+        "created_at",
+        "updated_by",
+        "updated_at"
+    ],
+    "data": [
+        [
+            "1",
+            "1",
+            "1234567890",
+            "Admin",
+            "admin",
+            "$2y$09$Rosa6\/dCqgxt17vdErqgpOB8JOZE5qzdJyp5LofIndbI4s5LZwCdG",
+            "bayu.ramadhan.92.93@gmail.com",
+            "",
+            "default.png",
+            "2021-07-23 14:12:05",
+            "2021-07-23 17:35:24",
+            "127.0.0.1",
+            "0",
+            "1",
+            "Administrator",
+            "2021-07-10 11:47:04",
+            "Administrator",
+            "2017-08-18 00:00:00",
+            "Admin",
+            "2021-07-10 11:47:24"
+        ]
+    ]
+}

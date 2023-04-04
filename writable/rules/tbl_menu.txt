@@ -1,0 +1,1 @@
+a:4:{s:4:"nama";s:21:"required|min-length:3";s:6:"target";s:35:"required|min-length:3|letter|unique";s:4:"icon";s:8:"required";s:6:"urutan";s:16:"required|numeric";}

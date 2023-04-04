@@ -1,0 +1,79 @@
+{
+    "table": "tbl_menu",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "auto_increment": true
+                },
+                "parent_id": {
+                    "type": "bigint",
+                    "unsigned": true
+                },
+                "level1": {
+                    "type": "bigint",
+                    "unsigned": true
+                },
+                "level2": {
+                    "type": "bigint",
+                    "unsigned": true
+                },
+                "level3": {
+                    "type": "bigint",
+                    "unsigned": true
+                },
+                "nama": {
+                    "type": "varchar",
+                    "length": "150"
+                },
+                "deskripsi": {
+                    "type": "varchar",
+                    "length": "150"
+                },
+                "target": {
+                    "type": "varchar",
+                    "length": "150"
+                },
+                "icon": {
+                    "type": "varchar",
+                    "length": "30"
+                },
+                "_view": {
+                    "type": "boolean",
+                    "default": "1"
+                },
+                "_input": {
+                    "type": "boolean"
+                },
+                "_edit": {
+                    "type": "boolean"
+                },
+                "_delete": {
+                    "type": "boolean"
+                },
+                "_additional": {
+                    "type": "text"
+                },
+                "ref": {
+                    "type": "varchar",
+                    "length": "100"
+                },
+                "urutan": {
+                    "type": "tinyint"
+                },
+                "dev_only": {
+                    "type": "boolean"
+                },
+                "is_active": {
+                    "type": "boolean"
+                },
+                "timestamp": true
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}

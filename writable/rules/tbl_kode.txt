@@ -1,0 +1,1 @@
+a:3:{s:5:"tabel";s:8:"required";s:5:"kolom";s:8:"required";s:7:"panjang";s:16:"required|numeric";}

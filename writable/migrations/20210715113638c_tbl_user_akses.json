@@ -1,0 +1,42 @@
+{
+    "table": "tbl_user_akses",
+    "up": {
+        "create": {
+            "fields": {
+                "id": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "auto_increment": true
+                },
+                "id_group": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "comment": "fk"
+                },
+                "id_menu": {
+                    "type": "bigint",
+                    "unsigned": true,
+                    "comment": "fk"
+                },
+                "_view": {
+                    "type": "boolean"
+                },
+                "_input": {
+                    "type": "boolean"
+                },
+                "_edit": {
+                    "type": "boolean"
+                },
+                "_delete": {
+                    "type": "boolean"
+                },
+                "_additional": {
+                    "type": "text"
+                }
+            },
+            "engine": "MyISAM",
+            "primary_key": "id"
+        }
+    },
+    "down": "drop"
+}
